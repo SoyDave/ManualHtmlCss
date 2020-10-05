@@ -1,0 +1,160 @@
+/* ejemplo de uso del */
+*
+{
+    font-family: Trebuchet MS;
+}
+
+/*Selector por Tipo*/
+p
+{
+    color: grey;
+}
+
+/*Selector por ID*/
+#selectorID
+{
+    color: orange;
+}
+
+/*Selector por Clase Porpia*/
+.selectorClase
+{
+    color: olivedrab;
+}
+
+/*Pseuso clase link y visited*/
+a:link
+{
+    color: red;
+}
+a:visited
+{
+    color: rebeccapurple;
+}
+
+/*Pseudo clase hover, active, focus*/
+legend:hover
+{
+    color: orange;
+}
+legend:active
+{
+    color: orangered;
+}
+input:focus
+{
+    color: olivedrab;
+}
+
+/*Pseudo elementos*/
+.pseudoElementos
+{
+    color: royalblue;
+}
+
+#tituloPseudoElementos
+{
+    text-align: center;
+}
+
+#tituloPseudoElementos::before
+{
+    content: "Before";
+    background: orange;
+}
+
+#tituloPseudoElementos::after
+{
+    content: "After";
+    background: orange;
+}
+
+#textoPseudoElementos::first-letter
+{
+    font-size: 30px;
+    color: gold;
+}
+
+/* Unidades de longitud absolutas */
+.pulgada
+{
+    height: 50px;
+    font-size: 16px;
+    overflow: visible;
+    width: 7in;
+    background: green;
+}
+
+.centimetro
+{
+    height: 50px;
+    font-size: 16px;
+    overflow: visible;
+    width: 7cm;
+    background: gold;
+}
+
+.pica
+{
+    height: 50px;
+    font-size: 16px;
+    overflow: visible;
+    width: 7pc;
+    background: olive;
+}
+
+.milimetro
+{
+    height: 50px;
+    font-size: 16px;
+    overflow: visible;
+    width: 7mm;
+    background: red;
+}
+
+.puntos
+{
+    height: 50px;
+    font-size: 16px;
+    overflow: visible;
+    width: 7pt;
+    background: blue;
+}
+
+.pixel
+{
+    height: 50px;
+    font-size: 16px;
+    overflow: visible;
+    width: 7px;
+    background: blueviolet;
+}
+
+/* porcentajes */
+.divUno
+{
+    color: grey;
+    width: 400px;
+    height: 400px;
+    background: red;
+    font-size: 80px;
+}
+
+.divDos
+{
+    background: blue;
+    width: 50%;
+    height: 50%;
+    font-size: 50%;
+}
+
+.divTres
+{
+    background: yellow;
+    width: 50%;
+    height: 50%;
+    font-size: 50%;
+}
+
+
+

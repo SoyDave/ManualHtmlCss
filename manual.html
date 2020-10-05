@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Html + Css</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>Manual de Html + Css</header>
+
+    <nav>
+        Menus
+    </nav>
+
+    <section>
+        <h1>Html</h1>
+        <article>
+            <h2>Partes principales que deberiamos incluir en un html</h2>
+            <p>
+                Pricipalmente deberiamos incluir las siguientes etiquetas en el body:
+                <br>
+                "header"
+                <br>
+                "nav"
+                <br>
+                "section" dentro de esta usamos los "article"
+                <br>
+                "aside"
+                <br>
+                "footer"            
+            </p>
+            <h2>Algunos tipos de etiquetas de html</h2>
+            <p>
+                <em>"em" Texto con énfasis</em>
+                <br>
+                <strong>"strong" Texto con mas énfasis</strong>
+            </p>
+        </article>
+        <article>
+            <h2>Tipos de links</h2>
+            <p>
+                <a href="index.html">Otro html</a>
+                <br>
+                <a href="https://static-media-prod-cdn.itsre-sumo.mozilla.net/static/sumo/img/gi-hero-butler.png" download="">Descarga</a>
+                <br>
+                <a href="https://www.google.com" target="_blank">Web Externa</a>
+                <br>
+                <a href="mailto:soydavex@gmail.com">Enviar Correo</a>
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>Selector Universal (le mete color a todo)</h2>
+            <p>
+                "*
+                {
+                    propiedad: valor;
+                }"
+            </p>
+        </article>
+        <article>
+            <h2>Selector de tipo</h2>
+            <p>
+                por etiquetas por ejemplo "p"
+            </p>
+        </article>
+        <article>
+            <h2>Selector ID</h2>
+            <p id="selectorID">
+                por ids por ejemplo "id=selectorID"
+            </p>
+        </article>
+        <article>
+            <h2>Selector de Clase</h2>
+            <p class="selectorClase">
+                por clases creadas por nosotros
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>Pseudo clases, :link y :visited</h2>
+            <p>
+                 <a href="https://www.mozilla.com" target="_blank">Sirve para cambiar los colores por defecto de un link sin pinchar y pinchado</a>
+            </p>
+        </article>
+        <article>
+            <h2>Pseudo clases:, :hover, :active, :focus</h2>
+            <p>sirve para cambiar el color al poner el puntero sobre, al dar clic y al estar detro de un campo </p>
+            <form action="">
+                <fieldset>
+                    <legend>Datos</legend>
+                    DatoUno: <input type="text">
+                    DatoDos: <input type="text">
+                </fieldset>
+            </form>
+        </article>    
+        <article class="pseudoElementos">
+            <h2 id="tituloPseudoElementos">Pseudo elementos</h2>
+            <p id="textoPseudoElementos">
+                Sirve para resaltar partes de texto como se ve en el titulo, tambien para aumentar por ejemplo el tamaño de palabras iniciales como en el texto.
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>Unidades de longitud absolutas</h2>
+            <p>podemos verlo en los siguientes ejemplos</p>
+            <div class="pulgada">pulgadas</div>
+            <div class="centimetro">centimetros</div>
+            <div class="pica">picas</div>
+            <div class="milimetro">milimetros</div>
+            <div class="puntos">puntos</div>
+            <div class="pixel">pixeles</div>
+        </article>
+        <article>
+            <h2>Unidades de longitud relativas</h2>
+            <p> por ejemplo , "em", "rem", "ex", "ch", muy dificil de explicar un enredo</p>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>Porcentajes</h2>
+            <p>ejemplo de porcentajes</p>
+            <div class="divUno">
+                <div class="divDos">
+                    <div class="divTres">
+                        20px
+                    </div>
+                    40px
+                </div>
+                80px
+            </div>
+        </article>
+    </section>
+
+    <aside>
+        <h3>Sobre el escritor</h3>
+        <p>
+            <a href="https://www.google.com" target="_blank">Juan Ortiz</a>
+            <a href="mailto:soydavex@gmail.com">Enviar Correo</a>
+        </p>
+    </aside>
+
+    <footer>
+        Todos los derechos reservados
+    </footer>
+    
+</body>
+</html>
